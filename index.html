@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio inteligente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="image.png" alt="Logo da Escola" class="logo">
+    <h1>Cardápio inteligente</h1>
+    <p>Digite os ingredientes</p>
+    <form id="ingredientForm">
+      <textarea id="ingredients" placeholder="Ingredientes entre virgulas" rows="5"></textarea>
+      <button type="submit">Buscar Receitas</button>
+    </form>
+    <div id="recipes" class="hidden">
+      <h2>Receitas encontradas:</h2>
+      <ul id="recipeList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

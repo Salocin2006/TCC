@@ -1,0 +1,90 @@
+/* Configuração geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 3px solid #003366;
+}
+
+/* Estilo do logo */
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilo dos títulos e textos */
+h1 {
+  color: #ff0000;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+/* Caixa de texto */
+textarea {
+  width: 90%; /* Reduzido para caber melhor no container */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: block; /* Garante que o margin funcione */
+  padding: 15px;
+  border: 2px solid #003366;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  resize: none;
+  margin-bottom: 20px; /* Espaço inferior */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Botão */
+button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+/* Área de resultados */
+.hidden {
+  display: none;
+}
+
+#recipeList {
+  list-style: none;
+  padding: 0;
+}
+
+#recipeList li {
+  margin: 10px 0;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
